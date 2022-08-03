@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@100&display=swap');
+
+body {
+  background-color: rgb(235, 247, 235);
+  font-family: 'Roboto', serif;
+  color: #575F7D;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+#titre {
+  font-weight: bold;
+}
+
+h1, h2 {
+  color: #7ECE90;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  padding: 25px 20px;
+
+}
+
+h2 {
+  color: #7ECE90;
+  font-size: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+a {
+  color: black;
+  background-color: white;
+  text-decoration: normal;
+}
+a:hover {
+  background-color : black;
+  text-decoration: normal;
+  margin: 60px;
+ }
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
+
+i {
+  font-size: 35px;
+  background-color: rgb(220, 243, 220);
+  text-decoration: none;
+}
+
+
+#introduction {
+ background-color: rgb(220, 243, 220);
+ padding: 40px;
+ box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+ border-radius: 4px;
+ margin: 20px 0px;
+ text-align: center;
+}
+
+ .card-blue {
+ background-color: rgb(220, 243, 220);
+ padding: 40px;
+ box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+ border-radius: 1px solid lightgrey;
+ margin: 20px 0px;
+ text-align: center;
+ }
+
+ .container p {
+  margin-bottom: 40px;
+ }
+
+ @media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
